@@ -7,4 +7,4 @@ COPY . .
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-CMD ["echo", "Ready for scheduled jobs"]
+CMD ["python", "bots/main.py"]
