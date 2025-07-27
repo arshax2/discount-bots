@@ -1,10 +1,12 @@
-# main.py
+# bots/main.py
+
 import asyncio
 
-from bots.a101_bot import scrape_a101
-from bots.carrefoursa_bot import scrape_carrefour
-from bots.migros_bot import scrape_migros
-from bots.sok_bot import scrape_sok
+from a101_bot import scrape_a101
+from carrefoursa_bot import scrape_carrefour
+from migros_bot import scrape_migros
+from sok_bot import scrape_sok
+
 
 async def run_all_bots():
     print("🚀 Running all bots...")
